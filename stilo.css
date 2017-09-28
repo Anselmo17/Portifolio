@@ -1,0 +1,127 @@
+/*conteudo total do site*/
+* body{
+	margin: 0px;
+padding: 0px;
+
+}
+
+.container{
+	border: 2px solid black;
+	margin: 0 auto;
+	width: 1000px;
+	height: 600px;
+	background: #A9A9A9;
+}
+
+/*texto do sites*/
+.texto{
+	width: 500px;
+	height: 500px;
+	float: left;
+	text-align: justify;
+	background: green;
+	font-size: 18px;
+	margin-left: 250px;
+	margin-top: 20px;
+	border: 2px solid black;
+	padding: 8px;
+}
+
+.texto img{
+	margin: 0px auto;
+	max-width: 500px;
+	width: 500px;
+	height: 200px;
+}
+
+
+/*menus do site */
+.menu ul{
+	display: block;
+	margin: 0 auto;
+	width: 500px;
+	padding: 0;
+}
+
+.menu ul li {
+	float: left;
+display: block;
+position: relative;
+padding-left:0px;
+}
+
+.menu ul li a {
+	padding: 10px;
+	display: block;
+	width: 78px;/*tamanho do menu*/
+	background: black;
+	font-size: 17px;
+	border: 1px solid white;
+	text-decoration: none;
+	color:white;
+}
+
+.menu ul li a:hover{
+color: red;
+
+}
+
+/*sub-menu*/
+.menu ul li ul {
+	display: none;
+}
+
+.menu ul li:hover >ul {
+	display: block;
+	position: absolute;
+}
+
+.menu ul ul {
+	width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+*** Seta para BAIXO
+**/
+.seta-baixo:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 0; 
+  height: 0; 
+
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid white;
+}
+
+
+
+/*mobile medio */
+@media ( min-width:400px)and (max-width:800px){
+
+	
+} 
+
+/*mobile medio */
+@media ( max-width:398px){
+
+ 
+
+}
+
+
+
